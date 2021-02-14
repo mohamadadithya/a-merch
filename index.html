@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-Merch</title>
+    <!-- Fonts -->
+    <link href="http://fonts.cdnfonts.com/css/kayak-sans" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/forque" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">A-Merch Shop</h2>
+                <p class="sub-heading">Hoodie & T-Shirt</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">IDR. 350,000</h4>
+                <p class="item">Sweater</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">IDR. 300,000</h4>
+                <p class="item">Jeans</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox" name="" id="">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h1>A-Merch</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon">🛒</div>
+                <h3>Cart</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste cumque magni possimus voluptates
+                    similique maxime atque tempora nihil dicta. Quos minima delectus vitae vero consequuntur nam impedit
+                    alias corrupti? Modi.</p>
+            </div>
+            <div class="service">
+                <div class="icon">🥋</div>
+                <h3>Fast</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste cumque magni possimus voluptates
+                    similique maxime atque tempora nihil dicta. Quos minima delectus vitae vero consequuntur nam impedit
+                    alias corrupti? Modi.</p>
+            </div>
+            <div class="service">
+                <div class="icon">🥋</div>
+                <h3>Non-Stop</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste cumque magni possimus voluptates
+                    similique maxime atque tempora nihil dicta. Quos minima delectus vitae vero consequuntur nam impedit
+                    alias corrupti? Modi.</p>
+            </div>
+            <div class="service">
+                <div class="icon">🥋</div>
+                <h3>Merchandise</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste cumque magni possimus voluptates
+                    similique maxime atque tempora nihil dicta. Quos minima delectus vitae vero consequuntur nam impedit
+                    alias corrupti? Modi.</p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="https://source.unsplash.com/random/201x201" alt=""><img
+                src="https://source.unsplash.com/random/202x202" alt=""><img
+                src="https://source.unsplash.com/random/203x203" alt=""><img
+                src="https://source.unsplash.com/random/204x204" alt=""><img
+                src="https://source.unsplash.com/random/205x205" alt=""><img
+                src="https://source.unsplash.com/random/206x206" alt=""><img
+                src="https://source.unsplash.com/random/207x207" alt=""><img
+                src="https://source.unsplash.com/random/208x208" alt=""><img
+                src="https://source.unsplash.com/random/209x209" alt=""><img
+                src="https://source.unsplash.com/random/2010x2010" alt="">
+        </section>
+
+        <footer>
+            <span>&copy; 2021 by Mohamad Adithya</span>
+        </footer>
+    </div>
+</body>
+<script>
+    const menuToggle = document.querySelector('.menu-toggle input');
+    const nav = document.querySelector('nav ul');
+
+    menuToggle.addEventListener('click', () => {
+        nav.classList.toggle('slide');
+    });
+</script>
+
+</html>
